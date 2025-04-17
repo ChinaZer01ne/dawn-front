@@ -1,0 +1,21 @@
+# 忽略所有文件（默认不忽略）
+# *
+
+# 白名单：只允许以下内容进入镜像
+# !src/
+# !public/
+# !package.json
+# !package-lock.json
+# !vite.config.js
+
+# 黑名单：绝对排除项
+Dockerfile
+docker-compose.yml
+.git
+.gitignore
+.env
+node_modules
+dist
+*.log
+.idea
+.vscode
